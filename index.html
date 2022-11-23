@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-modulo3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="barra-nav">
+            <img src="./imagenes/Black_Mesa.png" alt="logo-black-mesa" class="logo-black-mesa">
+            <div class="menu-hamburguesa">
+                <div class="barra-menu"></div>
+                <div class="barra-menu"></div>
+                <div class="barra-menu"></div>
+            </div>
+            <div class="menu-con-nombres">
+                <a href="#soy-gordon"  class="links-nav links">quien soy</a>
+                <a href="#mis-servicios" class="links-nav links">servicios</a>
+                <a href="#escribime" class="links-nav links">escribime</a>
+            </div>
+        </nav>
+        <section class="seccion-bienvenida">
+            <h1 class="titulo-de-bienvenida">Bienvenidos a mi site</h1>
+            <img src="./imagenes/gordon-freeman.png" alt="gordon-freeman" class="gordon-freeman">
+        </section>
+    </header>
+    <section class="seccion-biografia" id="soy-gordon">
+        <div class="presentacion">
+            <h2 class="soy-gordon">Soy Gordon Freeman</h2>
+            <p class="biografia">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies dolor.</p>
+        </div>
+        <div class="cuadrado-alien">
+            <img src="./imagenes/lamarr.png" alt="lamarr" class="lamarr">
+        </div>
+    </section>
+    <section class="seccion-servicios" id="mis-servicios">
+        <h2 class="mis-servicios">Mis servicios</h2>
+        <div class="contenedor-servicios">
+            <div class="servicio">
+                <img src="./imagenes/lambda-logo.png" alt="lambda-logo" class="logo-lambda">
+                <h3 class="titulo-cosas">Hago Cosas</h3>
+                <p class="parrafo-de-cosas">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+            </div>
+            <div class="servicio">
+                <img src="./imagenes/lambda-logo.png" alt="lambda-logo" class="logo-lambda">
+                <h3 class="titulo-cosas">Y más cosas</h3>
+                <p class="parrafo-de-cosas">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+            </div>
+            <div class="servicio">
+                <img src="./imagenes/lambda-logo.png" alt="lambda-logo" class="logo-lambda">
+                <h3 class="titulo-cosas">Y también otras cosas</h3>
+                <p class="parrafo-de-cosas">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="formulario" id="escribime">
+        <h2 class="titulo-formulario">Escribime</h2>
+        <div class="contenedor-interactivos">
+            <div class="fieldset">
+                <label class="label" for="name">NOMBRE</label>
+                <input type="text" id="name" class="input">
+            </div>
+            <div class="fieldset">
+                <label class="label" for="email">EMAIL</label>
+                <input type="email" id="email" class="input">
+            </div>
+            <div class="fieldset">
+                <label class="label" for="message">Mensaje</label>
+                <textarea id="message" class="textarea"></textarea>
+            </div>
+            <button class="boton-envio">Enviar</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="logo-final">
+            <img src="./imagenes/Black_Mesa.png" alt="logo-black-mesa" class="logo-footer">
+            <p class="derechos-de-autor"> © 2022 Black Mesa</p>
+        </div>
+        <div class="redes">
+            <div class="logo-y-nombre">
+                <a href="https://twitter.com/BlackMesaDevs" class="links" target="_blank">
+                    <img src="./imagenes/twitter-sign.png" alt="logo-twitter" class="logo-redes">
+                    <p  class="nombre-red">Twitter</p>
+                </a>
+            </div>
+            <div class="logo-y-nombre">
+                <a href="https://www.linkedin.com/in/sebastián-kraus" target="_blank" class="links">
+                    <img src="./imagenes/linkedin-logo.png" alt="logo-linkedin" class="logo-redes">
+                    <p  class="nombre-red">Linkedin</p>
+                </a>
+            </div>
+            <div class="logo-y-nombre">
+                <a href="https://www.github.com/sebakraus150" target="_blank" class="links">
+                    <img src="./imagenes/github.png" alt="logo-github" class="logo-redes">
+                    <p  class="nombre-red">Github</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
