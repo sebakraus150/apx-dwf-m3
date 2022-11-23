@@ -1,2 +1,2 @@
 # apx-dwf-m3
-https://github.com/sebakraus150/apx-dwf-m3.git
+https://sebakraus150.github.io/apx-dwf-m3/
